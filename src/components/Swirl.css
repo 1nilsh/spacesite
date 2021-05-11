@@ -1,0 +1,21 @@
+.Swirl {
+    position: fixed;
+    z-index: -12;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2F1233;
+
+}
+
+.sprite {
+    background-image: url(../assets/img/swirl.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,36 @@
+.Animations {
+    z-index: -3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.Animations img {
+    position: absolute;
+}
+
+.astronaut {
+    top: calc(.6 * 100vh);
+    left: -153px;
+}
+
+.spaceship {
+    top: calc(.65 * 100vh);
+    left: -331px;
+}
+
+.comet {
+    left: -220px;
+    top: -264px
+}
+
+.keep-scrolling {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    bottom: 1em;
+}
